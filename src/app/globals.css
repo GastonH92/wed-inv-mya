@@ -44,7 +44,13 @@ a { color: inherit; text-decoration: none; }
 @supports (animation-timeline: view()) { .section-kicker, .detail-card, .dress-code, .gift-box, .gallery-grid img, .rsvp-card { animation: section-glow linear both; animation-timeline: view(); animation-range: entry 0% cover 30%; } }
 @keyframes section-glow { from { opacity: .35; transform: translateY(24px); } to { opacity: 1; transform: translateY(0); } }
 .eyebrow, .section-kicker { font-size: 10px; letter-spacing: .18em; text-transform: uppercase; margin: 0 0 28px; color: #681D24; }
-.hero-copy .eyebrow { color: #ead7c9; }
+.hero-copy .eyebrow { color: #ead7c9;
+font-size: 1rem; letter-spacing: 0.12em; }
+.hero-copy h1 em {
+  font-size: 0.65em;
+  position: relative;
+  top: -0.05em;
+}
 h1, h2, h3, p { margin-top: 0; }
 h1, h2, h3 { font-family: Georgia, serif; font-weight: 400; }
 h1 { font-size: clamp(70px, 9vw, 134px); line-height: .84; letter-spacing: -.075em; margin: 0 0 38px; }

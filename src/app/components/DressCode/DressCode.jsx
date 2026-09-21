@@ -17,11 +17,7 @@ export default function DressCode() {
         </p>
       </div>
 
-      <div className="dress-lines" aria-hidden="true">
-        <span />
-        <span />
-        <span />
-      </div>
+      
     </section>
   );
 }

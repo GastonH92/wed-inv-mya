@@ -1,7 +1,7 @@
+
 "use client";
 
-import { useReducedMotion } from "motion/react";
-import { motion } from "motion/react";
+import { motion, useReducedMotion } from "motion/react";
 
 export default function Reveal({
   children,

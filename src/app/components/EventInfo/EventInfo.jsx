@@ -1,11 +1,15 @@
 
+import Reveal from "@/app/components/animations/Reveal";
+
 export default function EventInfo() {
   return (
     <section className="details section container" id="detalles">
-      <p className="section-kicker">El gran día</p>
+      <Reveal>
+        <p className="section-kicker">El gran día</p>
+      </Reveal>
 
       <div className="details-grid">
-        <div className="detail-card">
+        <Reveal className="detail-card" delay={0.05} y={18}>
           <span className="detail-number">01</span>
 
           <h3>Civil</h3>
@@ -25,9 +29,9 @@ export default function EventInfo() {
           >
             Ver en mapa <span>↗</span>
           </a>
-        </div>
+        </Reveal>
 
-        <div className="detail-card">
+        <Reveal className="detail-card" delay={0.15} y={18}>
           <span className="detail-number">02</span>
 
           <h3>Conferencia</h3>
@@ -47,9 +51,9 @@ export default function EventInfo() {
           >
             Cómo llegar <span>↗</span>
           </a>
-        </div>
+        </Reveal>
 
-        <div className="detail-card featured">
+        <Reveal className="detail-card featured" delay={0.25} y={18}>
           <span className="detail-number">03</span>
 
           <h3>Celebración</h3>
@@ -69,7 +73,7 @@ export default function EventInfo() {
           >
             Cómo llegar <span>↗</span>
           </a>
-        </div>
+        </Reveal>
       </div>
     </section>
   );

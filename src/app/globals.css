@@ -480,3 +480,55 @@ h2 em { color: #681D24; }
   }
 }
 
+.gift-data {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 25px;
+}
+
+.gift-data-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.gift-data-row strong {
+  min-width: 55px;
+}
+
+.gift-data-row span {
+  word-break: break-word;
+}
+
+.copy-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+
+  margin-left: 4px;
+  padding: 4px 8px;
+
+  border: 1px solid var(--wine);
+  border-radius: 2px;
+
+  background: transparent;
+  color: var(--wine);
+
+  font-family: inherit;
+  font-size: 0.68rem;
+  letter-spacing: 0.04em;
+
+  cursor: pointer;
+
+  transition:
+    background 0.25s ease,
+    color 0.25s ease;
+}
+
+.copy-button:hover,
+.copy-button.copied {
+  background: var(--wine);
+  color: var(--ivory);
+}

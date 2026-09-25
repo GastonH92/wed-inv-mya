@@ -15,6 +15,12 @@ export default function DressCode() {
           incorporarlos a su vestimenta como prefiera: en accesorios, prendas,
           zapatos o detalles sutiles.
         </p>
+        <br />
+        <p>
+          Para cuidar la armonía de nuestra celebración, les pedimos evitar los tonos bordó, uva y blanco.
+        </p>
+        <br />
+        
       </div>
 
       

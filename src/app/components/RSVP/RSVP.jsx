@@ -8,7 +8,7 @@ export default function RSVP() {
             <p className="section-kicker">Nos encantará verte</p>
              <h2> ¿Vienes a <br /> <em>celebrar?</em> </h2>
 
-              <p className="rsvp-copy"> Por favor confirma tu asistencia antes del{" "} <strong>1 de noviembre de 2026</strong>. </p>
+              <p className="rsvp-copy"> Por favor confirma tu asistencia antes del{" "} <strong>15 de Octubre de 2026</strong>. </p>
                <p className="rsvp-copy"> Si tienes alguna alergia o requerimiento especial, cuéntanoslo en el mensaje. </p>
                 </div> <div className="rsvp-card"> <RSVPForm /> 
                 </div> 
